@@ -1,5 +1,9 @@
 # This is the backend part of Covid-19 project.
 
+## Data Sources
+### [google spreadsheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vQuDj0R6K85sdtI8I-Tc7RCx8CnIxKUQue0TCUdrFOKDw9G3JRtGhl64laDd3apApEvIJTdPFJ9fEUL/pubhtml?gid=0&single=true)
+### [github](https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/')
+
 Used Tech Stack
 
 ## 1.Django
@@ -19,7 +23,7 @@ pip install -r requirements.txt
 
  `python manage.py runserver`
 
- [goto localhost:8000/home/v2](http://127.0.0.1:8000/api/v2/world/report/)
+ [goto localhost:8000/api/v2/world/report/](http://127.0.0.1:8000/api/v2/world/report/)
  
  ***
  ## Restapi's Uses
@@ -71,7 +75,7 @@ pip install -r requirements.txt
  
  
   ### To get total report on world wide
- Query : [goto localhost:8000/api/v2/daily/{country}/](http://127.0.0.1:8000/api/v2/total/report/)
+ Query : [goto localhost:8000/api/v2/total/report/](http://127.0.0.1:8000/api/v2/total/report/)
  Result:
  ```
     {
