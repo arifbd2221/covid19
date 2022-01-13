@@ -4,7 +4,7 @@ Django==3.0.5
 django-heroku==0.3.1
 djangorestframework==3.11.0
 pandas==1.0.1
-Pillow==5.1.0
+Pillow==9.0.0
 psycopg2==2.8.4
 psycopg2-binary==2.8.4
 python-dateutil==2.8.1
